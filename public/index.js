@@ -2,8 +2,10 @@
 
 
 
-fetch('/fetchNames').then(res => res.json()).then(data =>
-    document.getElementById('container').innerText = JSON.stringify(data));
+fetch('/fetchNames')
+    .then(res => res.json()).then(data =>
+        document.getElementById('container').innerText = JSON.stringify(data))
+    .then();
 
 
 
