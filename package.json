@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mcorcias/apiNodeProject#readme",
   "dependencies": {
+    "nodemon": "^1.19.3",
     "request": "^2.88.0"
   }
 }
